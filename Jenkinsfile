@@ -26,10 +26,10 @@ pipeline {
             deleteDir()
         }
         success{
-            echo "Hello Success"
+            echo 'Hello Success'
         }
         Failure{
-            echo "My pipeline is fail"
+            echo 'My pipeline is fail'
         }
     }
 }
