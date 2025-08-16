@@ -1,5 +1,5 @@
 pipeline {
-    agent anynode {
+    agent  {
         label 'agent-1'
     }
 
